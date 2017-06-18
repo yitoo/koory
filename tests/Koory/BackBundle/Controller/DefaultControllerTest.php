@@ -1,9 +1,14 @@
 <?php
 
-namespace Tests\AppBundle\Controller;
+namespace Tests\Koory\BackBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
+/**
+ * Class DefaultControllerTest
+ *
+ * @package Tests\AppBundle\Controller
+ */
 class DefaultControllerTest extends WebTestCase
 {
     public function testIndex()
