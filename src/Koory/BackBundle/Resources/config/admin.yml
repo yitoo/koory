@@ -1,0 +1,12 @@
+services:
+    app.admin.restaurant:
+        class: Koory\BackBundle\Admin\RestaurantAdmin
+        arguments: [~, Koory\BackBundle\Entity\Restaurant, ~]
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: Restaurant }
+
+    app.admin.product:
+        class: Koory\BackBundle\Admin\ProductAdmin
+        arguments: [~, Koory\BackBundle\Entity\Product, ~]
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: Product }

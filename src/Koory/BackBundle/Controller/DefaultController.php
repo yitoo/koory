@@ -1,11 +1,16 @@
 <?php
 
-namespace AppBundle\Controller;
+namespace Koory\BackBundle\Controller;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 
+/**
+ * Class DefaultController
+ *
+ * @package Koory\BackBundle\Controller
+ */
 class DefaultController extends Controller
 {
     /**
