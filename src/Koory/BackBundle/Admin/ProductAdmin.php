@@ -94,6 +94,7 @@ class ProductAdmin extends AbstractAdmin
             ->addIdentifier('name')
             ->addIdentifier('type')
             ->addIdentifier('description')
+            ->addIdentifier('restaurant.name')
         ;
     }
 
